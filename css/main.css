@@ -177,6 +177,42 @@ font-size:150%;
   height:8vh;
   border-top:solid 3px #f5f5eb;
 }
+
+#restairants {
+  padding-bottom:4vh;
+}
+#restaurants h2{
+  width:90%; 
+  height:9vh;
+  padding-top: 5vh ;
+  padding-bottom: 5vh;
+}
+#restaurants .restaurant{
+  width:90%;
+  margin: 4vh auto;
+}
+#restaurants .restaurant .empty {
+  height:27vh;
+ 
+}
+#restaurants .restaurant-description {
+  padding-bottom:4px;
+}
+#restaurants .restaurant-description h4 {
+  height:7vh;
+  padding-left:35px;
+  padding-top:35px;
+}
+
+#restaurants .restaurant-description p {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 14px 35px 0px;
+}
+
+
+
 #infos{
   display:flex;
   flex-wrap:wrap;
@@ -347,15 +383,20 @@ color:grey;
 #restaurants .restaurant{
 	background-color:white;
 	border-radius:9px;
+	margin: 4vh auto;
 }
 #restaurants .restaurant .empty {
 	border-top-left-radius:  9px;
 	border-top-right-radius:  9px;
 }
-#restaurants .restaurant-description h3 {
+#restaurants .restaurant-description{
+	padding-left: 35px;
+    padding-top: 35px;
+}
+#restaurants .restaurant-description h4 {
 	font-size:120%; 
 }
-#restaurant .restaurant-description p {
+#restaurants .restaurant-description p {
 	text-decoration:none;
 	color:grey;
 }
@@ -564,34 +605,31 @@ header form .submit {
   font-size:1rem;
   padding-right:0px;
 }
-
 #restaurants {
-	display: flex;
-	flex-flow: wrap;
-  }
-  #restaurants h2 {
+  display: flex;
+  flex-flow: wrap;
+}
+#restaurants h2 {
 	font-size: 3em;
 	width: 100%;
 	padding-top:1em;
 	padding-bottom:1em;
 	height:auto;
-  } 
-  #restaurants .restaurant {
+} 
+#restaurants .restaurant {
 	width:22%;
 	height: auto;
-  }
-  #restaurants .restaurant .empty {
+}
+#restaurants .restaurant .empty {
 	height:17em;
-  }
-  #restaurants .restaurant-description h4 {
+}
+#restaurants .restaurant-description h4 {
 	font-size: 1.4em;
-  }
-  #restaurants .restaurant-description p {
+}
+#restaurants .restaurant-description p {
 	font-size:1rem;
 	padding-right:0px;
-  }
-
-
+}
 .block-info {
   width: 25%;
   padding:47px;
