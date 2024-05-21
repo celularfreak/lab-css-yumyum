@@ -1,98 +1,264 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yum-Yum</title>
-    <link rel="stylesheet" href="/css/main.css">
+	<title>Yum-Yum</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="fonts/Intro/index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	
 </head>
 <body>
-    <header>
-        <h1>YUM-YUM</h1>
-        <p>Food Delivery Service</p>
-    </header>
-    <section id="search">
-        <h2>Order from Restaurants Around You</h2>
-        <form>
-            <input type="text" placeholder="Enter your address">
-            <input type="text" placeholder="What would you like?">
-            <button type="submit">Find a Food</button>
-        </form>
-    </section>
-    <section id="how-it-works">
-        <h2>How it Works?</h2>
-        <div class="steps">
-            <div class="step">
-                <h3>1. Search</h3>
-                <p>Find all restaurants available in your area.</p>
-            </div>
-            <div class="step">
-                <h3>2. Order</h3>
-                <p>Choose your favorite dishes and order online.</p>
-            </div>
-            <div class="step">
-                <h3>3. Eat</h3>
-                <p>Enjoy delicious meals delivered to your door.</p>
-            </div>
-        </div>
-    </section>
-    <section id="dishes">
-        <h2>Dishes</h2>
-        <div class="dish">
-            <h3>Pizza with Extra Toppings</h3>
-            <p>$9.99</p>
-            <button>See More</button>
-        </div>
-        <div class="dish">
-            <h3>Classic Burger</h3>
-            <p>$5.99</p>
-            <button>See More</button>
-        </div>
-        <div class="dish">
-            <h3>Pasta Bolognese</h3>
-            <p>$12.00</p>
-            <button>See More</button>
-        </div>
-    </section>
-    <section id="features">
-        <div class="feature">
-            <h3>Easy Online Ordering</h3>
-            <p>Convenient and fast ordering from your favorite restaurants.</p>
-        </div>
-        <div class="feature">
-            <h3>12,000+ Menus</h3>
-            <p>Discover new tastes from over 12,000 restaurants.</p>
-        </div>
-    </section>
-    <section id="restaurants">
-        <h2>Restaurants by Cuisine</h2>
-        <div class="restaurant">
-            <h3>Italian</h3>
-            <button>See More</button>
-        </div>
-        <div class="restaurant">
-            <h3>Fast Food</h3>
-            <button>See More</button>
-        </div>
-        <div class="restaurant">
-            <h3>Asian</h3>
-            <button>See More</button>
-        </div>
-    </section>
-    <footer>
-        <h2>Get to Know Us</h2>
-        <p>About Us</p>
-        <p>Contact Us</p>
-        <h2>Business Solutions</h2>
-        <p>For Restaurants</p>
-        <p>For Businesses</p>
-        <h2>Social</h2>
-        <p>Facebook</p>
-        <p>Twitter</p>
-        <p>Instagram</p>
-        <h2>Contact Us</h2>
-        <p>Contact Form</p>
-        <p>Help Center</p>
-    </footer>
+	<nav>
+		<div class="nav-left">
+				<img src="images/logo.svg" alt="Yum-Yum Logo">
+				<p>Local Cuisine Delivered</p>
+		</div>
+		<div class="nav-right">
+				<a href=""><img src="images/hamburger.svg"" alt="hamburger menu"></a>
+				<a href=""><img src="images/cart.svg" alt="cart"></a>
+		</div>	
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Restaurants</a></li>
+				<li><a href="">Offers</a></li>
+				<li><a href="">Dishes</a></li>
+				<li><a href="">Cuisine</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<header>
+		<div class="empty"></div>
+		<div class="order">
+			<h1>ORDER FROM RESTAURANTS AROUND YOU</h1>
+			<form action="" method="get" class="form-order">
+					<div class="form-box address">
+						<img src="images/pin.svg" alt="pin"/>
+						<input type="text" name="address" id="address" placeholder="Enter your address">
+					</div>
+					<div class="form-box foodtype">
+						<img src="images/bbq.svg " alt="bbq" />
+						<input type="text" name="foodtype" id="foodtype" placeholder="What would you like?">
+					</div>
+					<button class="submit">Find a Food</button>
+			</form>	
+		</div>
+	</header>
+	<section id="description">
+		<h2>How it works?</h2>
+		<div class="box">
+			<img src="images/map.png" alt="map image">
+			<div class= "text">
+				<h3>1.   SEARCH</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium ipsum nec arcu pretium, ac.</p>
+			</div>
+			
+		</div>
+		<div class="box">
+				<img src="images/clipboard.png" alt="cliboard image">
+				<div class="text">
+					<h3>2.    ORDER</h3>
+					<p>Lorem ipsum pretium ipsum nec arcu pretium, ac sit amet, consectetur adipiscing.</p>
+			</div>	
+		</div>
+		<div class="box">
+				<img src="images/bag.png" alt="bag image">
+				<div class="text">
+					<h3>3.    EAT</h3>
+					<p>Lorem ipsum dolor sit amet, Donec pretium ipsum , consectetur adipiscing.</p>
+				</div>	
+		</div>
+	</section>
+	<section id="dishes">
+			<h2>Dishes</h2>
+			<div class="dish">
+				<div class="empty"></div>
+				<div class="dish-description">
+					<h4>Pasta with lamb Ragù: <br/> Coppa, Boston</h4>
+					<h5>Christine Quinlan</h5>
+					<div class="price">
+						<p>$19,99</p>
+						<button>Buy Now</button>
+					</div>
+					<div class="ratings">
+							<div class="stars">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+							</div>
+							<a href="">1676 ratings > </a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="dish">
+					<div class="empty"></div>
+					<div class="dish-description">
+						<h4>Pasta with lamb Ragù: <br/> Coppa, Boston</h4>
+						<h5>Christine Quinlan</h5>
+						<div class="price">
+							<p>$5,99</p>
+							<button>Buy Now</button>
+						</div>
+						<div class="ratings">
+								<div class="stars">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+								</div>
+								<a href="">12 ratings > </a>
+						</div>
+					</div>
+				</div>
+			<div class="dish">
+				<div class="empty"></div>
+				<div class="dish-description">
+					<h4>Pork Rillette Hand Pies: <br/> Olympic Provisions, Portland</h4>
+					<h5>Joey Pepperoni's Pizza</h5>
+					<div class="price">
+						<p>$10,80</p>
+						<button>Buy Now</button>
+					</div>
+					<div class="ratings">
+							<div class="stars">
+								<img class="star" src="images/star.svg" alt="star rating">
+								<img class="star" src="images/star.svg" alt="star rating">
+								<img class="star" src="images/star.svg" alt="star rating">
+								<img class="star" src="images/star.svg" alt="star rating">
+							</div>
+							<a href="">33 ratings > </a>
+					</div>
+				</div>
+			</div>
+			<div class="dish">
+					<div class="empty"></div>
+					<div class="dish-description">
+						<h4>Pork Rillette Hand Pies: <br/> Coppa, Boston</h4>
+						<h5>Christine Quinlan</h5>
+						<div class="price">
+							<p>$5,99</p>
+							<button>Buy Now</button>
+						</div>
+						<div class="ratings">
+								<div class="stars">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+								</div>
+								<a href="">33 ratings > </a>
+						</div>
+					</div>
+				</div>
+	</section>
+	<section id="infos">
+		<div class="block-info">
+			<div class="round-box"><img class="logo-info" src="images/phone.svg" alt="phone logo"></div>
+			<h3>EASY ONLINE</h3>
+			<p>No need to pick-up the phone. Quick and accurate oredering here</p>
+		</div>
+		<div class="block-info">
+				<div class="round-box"><img class="logo-info" src="images/chicken.svg" alt="chicken logo"></div>
+				<h3>12 000+ MENUS
+				</h3>
+				<p> Discovery new places — order your usual and throw away those paper</p>
+		</div>
+		<div class="block-info">
+				<div class="round-box"><img class="logo-info" src="images/percent.svg" alt="percent logo"></div>
+				<h3>DISCOUNTS & DEALS</h3>
+				<p>Get exclusive offers and save on your delivery favorites</p>
+		</div>
+		<div class="block-info">
+				<div class="round-box"><img class="logo-info" src="images/mobile.svg" alt="phone logo"></div>
+				<h3>ANYTIME, ANYWHERE</h3>
+				<p>On-the-go? Chek out our fabulous apps on IOs and Android</p>
+		</div>
+	</section>
+	<section id="restaurants">
+			<h2>Restaurant by Cuisine</h2>
+			<div class="restaurant">
+				<div class="empty"></div>
+				<div class="restaurant-description">
+					<h4>A La Carte</h4>
+					<p>189 dishes</p>
+				</div>
+			</div>
+			<div class="restaurant">
+				<div class="empty"></div>
+				<div class="restaurant-description">
+					<h4>African</h4>
+					<p>76 dishes</p>
+				</div>
+			</div>
+			<div class="restaurant">
+				<div class="empty"></div>
+				<div class="restaurant-description">
+					<h4>American (Traditional)</h4>
+					<p>193 dishes</p>
+				</div>
+			</div>
+			<div class="restaurant">
+				<div class="empty"></div>
+				<div class="restaurant-description">
+					<h4>Asian</h4>
+					<p>497 dishes</p>
+				</div>
+			</div>	
+	</section>
+	<section id="contact">
+		<div class="block-contact">
+			<h3>GET TO KNOW US</h3>
+			<ul>
+				<li>About A la Carte</li>
+				<li>How your ordering works</li>
+				<li>Blog</li>
+				<li>Press</li>
+			</ul>
+		</div>
+		<div class="block-contact">
+				<h3>BUSINESS SOLUTIONS</h3>
+				<ul>
+					<li>Join Our Restaurant</li>
+					<li>Network</li>
+					<li>Company accounts</li>
+				</ul>
+		</div>
+		<div class="block-contact">
+				<h3>SOCIAL</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Pinterest</li>
+				</ul>
+		</div>
+		<div class="block-contact">
+				<h3>CONTACT US</h3>
+				<ul>
+					<li>Contact Us</li>
+					<li>Help</li>
+					<li>About</li>
+				</ul>
+		</div>
+	</section>
+	<footer>
+		<ul>
+			<li id="copyright">&copy; 2014 Yum Yum. With love by HezyTheme Terms Privacy Contact Us</li>
+			<li>Terms</li>
+			<li>Privacy</li>
+			<li>Contact Us</li>
+		</ul>
+	</footer>
+	
 </body>
 </html>
